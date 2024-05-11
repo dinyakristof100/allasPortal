@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Allas portal</string>
+    <string name="log_in">Log in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="registration">Registration</string>
+    <string name="create_your_profile">Create your profile</string>
+    <string name="email">Email address</string>
+    <string name="passwordAgain">Password again</string>
+    <string name="cancel">Cancel</string>
+    <string name="loginAsGuest">Login as guest</string>
+    <string name="loginViaGoogle">Login via Google</string>
+    <string name="default_web_client_id">allasportal-27bd9</string>
+    <string name="item_placeholder">Loading…</string>
+    <string name="item_info_placeholder">Some info</string>
+    <string name="search">search</string>
+    <string name="log_out">Log out</string>
+    <string name="settings">Settings</string>
+    <string name="change_view">Change view</string>
+    <string name="allasportal">Job portal</string>
+    <string name="details">Details</string>
+    <string name="back">Back</string>
+
+    <string-array name="jobItemTitle">
+        <item>Fejlesztő</item>
+        <item>Projektmenedzser</item>
+        <item>Adatelemző</item>
+        <item>Marketing specialista</item>
+        <item>Értékesítési menedzser</item>
+        <item>HR tanácsadó</item>
+        <item>Ügyfélszolgálati képviselő</item>
+        <item>Termék menedzser</item>
+    </string-array>
+
+    <string-array name="jobItemDescription">
+        <item>Alkalmazásfejlesztés Java nyelven a CodeInnovate Zrt-nél</item>
+        <item>Projektek koordinálása és menedzselése a ProjectMaster Kft-nél</item>
+        <item>Nagy adathalmazok elemzése a DataAnalytics Corp-nál</item>
+        <item>Marketing stratégiák készítése és végrehajtása a MarketGenius Zrt-nél</item>
+        <item>Értékesítési csapat irányítása a SalesForce Kft-nél</item>
+        <item>HR projektek és toborzási feladatok a PeopleManage Zrt-nél</item>
+        <item>Ügyfélpanaszok kezelése és támogatás nyújtása a CustomerCare Solutions-nál</item>
+        <item>Termékfejlesztés és piaci elemzés az InnovateProducts Corp-nál</item>
+    </string-array>
+
+    <string-array name="jobItemLongDescription">
+        <item>    Feladatok: Új Java alapú szoftverek és alkalmazások fejlesztése, meglévő alkalmazások karbantartása és frissítése, valamint a fejlesztési folyamatok optimalizálása. Aktív részvétel az agilis fejlesztési ciklusokban, tesztesetek írása és dokumentáció készítése.
+                  Követelmények: Erős Java programozási készség, SQL ismeretek, és tapasztalat a Spring Framework használatában.</item>
+        <item>    Feladatok: Felelősség a projekttervek kidolgozásáért, a projektcsapatok napi munkájának koordinálásáért, a projekt célok és költségvetés betartásának biztosításáért. Kommunikáció az ügyfelekkel és a beszállítókkal, valamint a projektrizikók kezelése.
+                  Követelmények: Projektmenedzsment tapasztalat, kiváló kommunikációs és szervezési készség, PMP vagy hasonló tanúsítvány előnyt jelent.</item>
+        <item>    Feladatok: Adatgyűjtés, -feldolgozás és -elemzés nagy adatbázisokból, statisztikai modellek és prediktív analitikai módszerek alkalmazása a cég stratégiai döntéseinek támogatására. Eredmények bemutatása érthető jelentések formájában.
+                  Követelmények: Mély ismeretek statisztikában és adatelemzési szoftverekben (pl. R, Python), tapasztalat adatbázis-kezelésben és SQL-ben.</item>
+        <item>    Feladatok: Marketing kampányok tervezése, végrehajtása és értékelése, piackutatás, versenytárs elemzés, és az eredmények alapján stratégiák kialakítása. Digitális marketing eszközök és közösségi média kezelése.
+                  Követelmények: Erős ismeretek marketing területén, tapasztalat digitális marketing eszközök kezelésében, kreativitás és jó kommunikációs készség.</item>
+        <item>    Feladatok: Az értékesítési csapat napi munkájának irányítása, értékesítési stratégiák kidolgozása és implementálása, új üzleti lehetőségek felkutatása, és a csapat teljesítményének értékelése.
+                  Követelmények: Tapasztalat értékesítési vezetőként, kiváló kommunikációs és tárgyalási készség, erős üzleti érzék.</item>
+        <item>    Feladatok: HR projektek menedzselése, új munkatársak toborzása és kiválasztása, munkavállalói képzések és fejlődési programok szervezése, munkaügyi dokumentáció kezelése.
+                  Követelmények: Mély HR ismeretek, tapasztalat toborzási és munkaügyi folyamatokban, kiváló emberi kapcsolatok kezelésében.</item>
+        <item>    Feladatok: Ügyfélpanaszok fogadása és kezelése, problémák megoldása, ügyfélkapcsolati adatbázisok karbantartása, és az ügyfélszolgálati csapat munkájának támogatása.
+                  Követelmények: Kitűnő ügyfélkezelési készség, problémamegoldó képesség, tapasztalat ügyfélszolgálati szoftverek használatában.</item>
+        <item>    Feladatok: Új termékek fejlesztése, meglévő termékek továbbfejlesztése, piaci trendek és fogyasztói igények elemzése, és a fejlesztési folyamatok dokumentálása.
+                  Követelmények: Mérnöki vagy termékmenedzsment tapasztalat, kreativitás, jó analitikai készség, tapasztalat projektmenedzsmentben.</item>
+    </string-array>
+
+
+    <string-array name="jobItemLocation">
+        <item>Budapest</item>
+        <item>Debrecen</item>
+        <item>Szeged</item>
+        <item>Pécs</item>
+        <item>Győr</item>
+        <item>Miskolc</item>
+        <item>Nyíregyháza</item>
+        <item>Kecskemét</item>
+    </string-array>
+
+    <array name="jobItemRating">
+        <item>4.5</item>
+        <item>3.8</item>
+        <item>4.2</item>
+        <item>3.6</item>
+        <item>4.7</item>
+        <item>3.9</item>
+        <item>4.1</item>
+        <item>3.5</item>
+    </array>
+
+    <array name="jobItemImages">
+        <item>@drawable/image_developer</item>
+        <item>@drawable/image_project_manager</item>
+        <item>@drawable/image_data_analyst</item>
+        <item>@drawable/image_marketing_specialist</item>
+        <item>@drawable/image_sales_manager</item>
+        <item>@drawable/image_hr_consultant</item>
+        <item>@drawable/image_customer_service</item>
+        <item>@drawable/image_product_manager</item>
+    </array>
+    <string name="appwidget_text">Jobs</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is the job widget</string>
+
+
+</resources>

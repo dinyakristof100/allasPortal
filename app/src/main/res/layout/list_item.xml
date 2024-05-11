@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:padding="8dp"
+            android:text="@string/item_placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemTitle"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:layout_marginStart="8dp" />
+
+
+        <TextView
+            android:id="@+id/location"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/detalisBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:text="@string/details"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detalisBtn"
+                android:text="Delete"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/red"/>
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deleteBtn"
+                android:text="Update"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/colorAccent"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205738688763",
+    "project_id": "allasportal-27bd9",
+    "storage_bucket": "allasportal-27bd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205738688763:android:467b5ac0873e764f3af05e",
+        "android_client_info": {
+          "package_name": "hu.mobilalk.allasportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8TGaAX9UkPKILusz5853huI5JRbzPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
